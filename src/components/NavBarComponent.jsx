@@ -11,7 +11,7 @@ export const NavBarComponent = () => {
          <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand as={Link} to='/proyecto-4/'><Image 
-              src='/logo.svg'
+              src= './logo.svg'
               width="90" 
               className="d-inline-block align-top"
               alt="logo"
