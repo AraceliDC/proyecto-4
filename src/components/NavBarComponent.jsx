@@ -10,11 +10,11 @@ export const NavBarComponent = () => {
     <div>
          <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand as={Link} to='/'><Image 
-              src='/logo.png'
+          <Navbar.Brand as={Link} to='/proyecto-4/'><Image 
+              src='/logo.svg'
               width="90" 
               className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              alt="logo"
           /></Navbar.Brand>
           <Nav className="justify-content-end">
             <Nav.Link as={Link} to='/proyecto-4/'>Sobre nosotros</Nav.Link>
