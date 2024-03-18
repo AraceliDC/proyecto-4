@@ -25,5 +25,27 @@
             "ingriedients":"Fideos dangmyeon, setas shiitake, carne de vacuno, cebolla, zanahoria, huevos, semillas de sesamo",
             "image":"imgs/japchae.jpg"
         }
+    ],
+    "drinks":[
+        {
+            "name": "Soju",
+            "caracteristicas":"Bebida alcoholica en base a arroz",
+            "image":"imgs/soju.jpg"
+        },
+        {
+            "name":"Bubble Tea",
+            "caracteristicas":"Exquisito te de variados sabores con perlas de tapioca",
+            "image":"imgs/bubletea.jpg"
+        },
+        {
+            "name":"Gaseosas",
+            "caracteristicas":"Coca-cola, Fanta, Sprite",
+            "image":"imgs/bebidaslata.jpg"
+        },
+        {
+            "name":"Jugos Naturales",
+            "caracteristicas":"Ricos jugos realizados con las mejores frutas",
+            "image":"imgs/jugonatural.jpg"
+        }
     ]
 }
