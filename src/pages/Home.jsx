@@ -1,5 +1,7 @@
 import React from 'react'
 import { FormComponent } from '../components/FormComponent'
+import { Image } from 'react-bootstrap'
+import imgCentral from '../assets/images/imgCentral.jpg'
 
 
 export const Home = () => {
@@ -10,8 +12,11 @@ export const Home = () => {
             <h1>Bienvenido a HAPPY RAMYON</h1>
             <p>Te invitamos a disfrutar de nuestra sabrosa comida estilo coreano en nuestro local. <br />Ramyon, bibimbap, bulgogi, tteokbokki, entre otros. <br /> Revisa nuestro Menú</p>
           </div>
-         <div style={{height:'40rem', width:'40rem',backgroundColor:'aqua'}} className='m-5'> 
-
+         <div style={{height:'40rem', width:'40rem'}} className='m-5'> 
+            <Image src= {imgCentral}
+              width="40rem" 
+              
+              alt="img-central"/>
           </div>
         </div>
 

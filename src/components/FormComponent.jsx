@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 export const FormComponent = ()=> {
   return (
-    <Form>
+    <Form style={{width:'75%'}}>
       <Form.Group className="mb-3" controlId="formBasicName">
         <Form.Label>Nombre</Form.Label>
         <Form.Control type="name" placeholder="Escriba su nombre" />

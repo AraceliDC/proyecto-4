@@ -4,7 +4,7 @@ import holder from '../holder.json'
 
 export const Menu = () => {
   return (
-    <div style={{display:'flex'}}>
+    <div style={{display:'flex', justifyContent:'center', flex:'column'}}>
       <h1>CONOCE NUESTROS PLATILLOS</h1>
       {
         holder.dishes.map(dish=> ( 
