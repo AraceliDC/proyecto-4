@@ -4,7 +4,7 @@
             "name": "Tteokbokki",
             "ingriedients": "Tteok (pasta de arroz coreana), eomuk (pastel de pescado), cebolla, cebollin, ajo, zanahoria, huevos, gochujang, gochugaru",
             "image": "./src/assets/images/Tteokbokki.jfif"
-        }
+        },
         {
             "name":"Bibimbap",
             "ingriedients": "Carne de vacuno, cebolla, espinaca, brotes de soja, salsa de soja, arroz, huevo, seta shiitake, aceite de sesamo",
