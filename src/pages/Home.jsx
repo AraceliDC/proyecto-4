@@ -6,9 +6,9 @@ export const Home = () => {
   return (
     <div style={{display:'flex', flexWrap:'wrap', justifyContent:'center'}}>
         <div style={{display:'flex', flex:'column', width:'100%', justifyContent:'space-evenly'}}>
-          <div style={{justifyContent: 'center', width: '20rem', height:'40rem', backgroundColor: 'red', display:'flex', flexDirection:'column'}} className='m-5'>
+          <div style={{justifyContent: 'center', width: '20rem', height:'40rem', display:'flex', flexDirection:'column'}} className='m-5'>
             <h1>Bienvenido a HAPPY RAMYON</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias possimus vel, ullam dolor adipisci cumque nihil laudantium fuga ipsam, quo tempore deserunt modi quod, veritatis enim laboriosam consequuntur est quisquam.</p>
+            <p>Te invitamos a disfrutar de nuestra sabrosa comida estilo coreano en nuestro local. <br />Ramyon, bibimbap, bulgogi, tteokbokki, entre otros. <br /> Revisa nuestro Menú</p>
           </div>
          <div style={{height:'40rem', width:'40rem',backgroundColor:'aqua'}} className='m-5'> 
 
