@@ -15,7 +15,7 @@ export const Home = () => {
          <div style={{height:'40rem', width:'40rem'}} className='m-5'> 
             <Image src= {imgCentral}
               width="100%" 
-              
+              className="d-inline-block align-center"
               alt="img-central"/>
           </div>
         </div>
