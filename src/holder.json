@@ -9,6 +9,21 @@
             "name":"Bibimbap",
             "ingriedients": "Carne de vacuno, cebolla, espinaca, brotes de soja, salsa de soja, arroz, huevo, seta shiitake, aceite de sesamo",
             "image": "imgs/bibimbap.jpg"
+        },
+        {
+            "name":"Bulgogi",
+            "ingriedients":"Arroz, lechuga, carne de vacuno, cebollin, cebolla, zanahoria",
+            "image":"imgs/bulgogi.jpg"
+        },
+        {
+            "name":"Ramyeon",
+            "ingriedients":"Fideos, huevo, cebollin, zanahoria, cebolla. Para elegir: Kimchi, pollo, cerdo",
+            "image":"imgs/ramyeon.jpg"
+        },
+        {
+            "name":"Japchae",
+            "ingriedients":"Fideos dangmyeon, setas shiitake, carne de vacuno, cebolla, zanahoria, huevos, semillas de sesamo",
+            "image":"imgs/japchae.jpg"
         }
     ]
 }
