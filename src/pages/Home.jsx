@@ -16,12 +16,12 @@ export const Home = () => {
         </div>
 
         <div className='' style={{display:'flex',width:'100%',borderTop:'1px solid grey'}}>
-          <div style={{width:'50%', height:'20rem',color:'white'}} className='bg-secondary-emphasis p-5'>
+          <div style={{width:'50%', height:'20rem',color:'white'}} className='bg-dark p-5'>
             <h4>Contáctate con nosotros</h4>
             <span> En caso de duda sobre reserva, cancelación de reserva o cualquier otra pregunta, no dudes en contactarte con nosotros</span>
             <span>Concepción, Región del Bío-bío <br /> +56 11111111 <br />contacto@ramyonccp.cl</span>
           </div>
-          <div>
+          <div className='bg-dark'>
             <FormComponent />
           </div>
         </div>

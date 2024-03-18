@@ -2,6 +2,7 @@ import { Image } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import logo from './public'
 
 import { Link } from 'react-router-dom'
 
@@ -11,7 +12,7 @@ export const NavBarComponent = () => {
          <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand as={Link} to='/proyecto-4/'><Image 
-              src= './logo.svg'
+              src= {logo}
               width="90" 
               className="d-inline-block align-top"
               alt="logo"

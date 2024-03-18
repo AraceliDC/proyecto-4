@@ -20,7 +20,7 @@ export const FormComponent = ()=> {
         <Form.Label>Mensaje</Form.Label>
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
-      <Button variant="danger-emphasis" type="submit">
+      <Button variant="warning" type="submit">
         Submit
       </Button>
     </Form>
