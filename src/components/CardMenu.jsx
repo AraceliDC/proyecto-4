@@ -1,20 +1,35 @@
-import React from 'react'
-import { Button, Card } from 'react-bootstrap'
+import React, { useState } from 'react';
+import { Button, Card } from 'react-bootstrap';
 
+export const CardMenu = ({ holder }) => {
+    const [cardStatus, setCardStatus] = useState(holder.dishes.map(() => true));
 
-export const CardMenu = ({holder}) => {
-  return (
-    <div style={{display:'flex', justifyContent:'space-evenly'}}>
-        {
-          holder.dishes.map(dish => (
-            <Card key={dish.name} style={{ width: '18rem', margin:'10px' }}>
-              <Card.Img variant='top' src={dish.image} />
-              <Card.Body>
-                <Card.Title>{dish.name}</Card.Title>
-                <Button variant='warning'>Ingredientes</Button>
-              </Card.Body>
-            </Card>))
-        }
-      </div>
-    )
-}
+    const toggleCardStatus = (index) => {
+        const newStatus = [...cardStatus];
+        newStatus[index] = !newStatus[index];
+        setCardStatus(newStatus);
+    };
+
+    return (
+        <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+            {holder.dishes.map((dish, index) => (
+                <Card key={dish.name} style={{ width: '18rem', margin: '10px' }} className={`cardmain ${cardStatus[index] ? '' : 'text-only'}`}>
+                    {cardStatus[index] ? (
+                        <>
+                            <Card.Img variant='top' src={dish.image} />
+                            <Card.Body>
+                                <Card.Title>{dish.name}</Card.Title>
+                                <Button variant='warning' onClick={() => toggleCardStatus(index)}>Ver mas detalles</Button>
+                            </Card.Body>
+                        </>
+                    ) : (
+                        <Card.Body>
+                            <Card.Text>{dish.ingriedients}</Card.Text>
+                            <Button variant='warning' onClick={() => toggleCardStatus(index)}>Ver mas detalles</Button>
+                        </Card.Body>
+                    )}
+                </Card>
+            ))}
+        </div>
+    );
+};
