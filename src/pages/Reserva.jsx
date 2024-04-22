@@ -12,7 +12,7 @@ export const Reserva = () => {
   return (
     <div style={{width:'100%', height:'50rem', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center'}}>
         <div style={{width:'50%', display:'flex', justifyContent:'center', flexFlow:'column', alignItems:'center'}}>
-            <h1 className='position-top'>Reserva tu hora aquí</h1>
+            <h1 className='position-top'>Reserva tu mesa aquí</h1>
         <FormComponent />
      </div>
      <div style={{width:'50%',display:'flex', justifyContent:'center'}} className='mt-5'>

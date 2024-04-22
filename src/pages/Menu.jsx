@@ -6,7 +6,7 @@ import { CardDrinks } from '../components/CardDrinks'
 export const Menu = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', width: '100%', height: '100%' }}>
-      <div className='bg-warning' style={{ width: "100%", height: "40%" }}>
+      <div className='bg-warning menu-comida' style={{ width: "100%", height: "40%" }}>
         <div>
           <h1 className='m-5'>CONOCE NUESTROS PLATILLOS</h1>
         </div>

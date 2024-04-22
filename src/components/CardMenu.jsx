@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Card } from 'react-bootstrap';
+import "./CardMenu.css"
 
 export const CardMenu = ({ holder }) => {
     const [cardStatus, setCardStatus] = useState(holder.dishes.map(() => true));
@@ -11,7 +12,7 @@ export const CardMenu = ({ holder }) => {
     };
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-evenly' }}className='comida'>
             {holder.dishes.map((dish, index) => (
                 <Card key={dish.name} style={{ width: '18rem', margin: '10px' }} className={`cardmain ${cardStatus[index] ? '' : 'text-only'}`}>
                     {cardStatus[index] ? (

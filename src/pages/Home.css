@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px){
+    body{
+        font-size: 10pt;
+        flex-wrap: wrap;
+        height: 10px !important;
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    h1{
+        font-size: 12pt;
+    }
+    .container-img{
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 20rem;
+    }
+    .container-about{
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container-text-1{
+        margin: 0 !important;
+        padding: 0;
+        height: 26rem;
+    }
+    .container-text{
+        flex-wrap: wrap;
+        margin: 0 !important;
+    }
+}

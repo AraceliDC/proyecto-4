@@ -4,6 +4,7 @@ import { Menu } from './pages/Menu'
 import { NavBarComponent } from './components/NavBarComponent'
 import { FooterComponent } from './components/FooterComponent'
 import { Reserva } from './pages/Reserva'
+import "../src/App.css"
 
 function App() {
 
